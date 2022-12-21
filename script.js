@@ -1,15 +1,19 @@
 
 /* Change mood */
 
+// var emojiObject = document.getElementById("emoji"); not working, why??
+
 function smile() {
     let emojiObject = document.getElementById("emoji");
-    emojiObject = "bi bi-emoji-heart-eyes";
+
+    emojiObject.className = "bi bi-emoji-heart-eyes";
 
 }
 
 function frown() {
-    let emojiObject = document.getElementById("emoji");
-    emojiObject = "bi bi-emoji-heart-frown";
-}
 
+    let emojiObject = document.getElementById("emoji");
+    
+    emojiObject.className = "bi bi-emoji-frown";
+}
 
